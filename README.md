@@ -1,20 +1,21 @@
-Background
+## Background
 The nonprofit foundation Alphabet Soup wants a tool that can help it select the applicants for funding with the best chance of success in their ventures. With your knowledge of machine learning and neural networks, you’ll use the features in the provided dataset to create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup.
 
 From Alphabet Soup’s business team, you have received a CSV containing more than 34,000 organizations that have received funding from Alphabet Soup over the years. Within this dataset are a number of columns that capture metadata about each organization, such as:
 
-EIN and NAME—Identification columns
-APPLICATION_TYPE—Alphabet Soup application type
-AFFILIATION—Affiliated sector of industry
-CLASSIFICATION—Government organization classification
-USE_CASE—Use case for funding
-ORGANIZATION—Organization type
-STATUS—Active status
-INCOME_AMT—Income classification
-SPECIAL_CONSIDERATIONS—Special considerations for application
-ASK_AMT—Funding amount requested
-IS_SUCCESSFUL—Was the money used effectively
-Before You Begin
+### EIN and NAME—Identification columns
+### APPLICATION_TYPE—Alphabet Soup application type
+### AFFILIATION—Affiliated sector of industry
+### CLASSIFICATION—Government organization classification
+### USE_CASE—Use case for funding
+### ORGANIZATION—Organization type
+### STATUS—Active status
+### INCOME_AMT—Income classification
+### SPECIAL_CONSIDERATIONS—Special considerations for application
+### ASK_AMT—Funding amount requested
+### IS_SUCCESSFUL—Was the money used effectively
+
+## Before You Begin
 Create a new repository for this project called deep-learning-challenge. Do not add this Challenge to an existing repository.
 
 Clone the new repository to your computer.
@@ -23,13 +24,13 @@ Inside your local git repository, create a directory for the Deep Learning Chall
 
 Push the above changes to GitHub.
 
-Files
+## Files
 Download the following files to help you get started:
 
 Module 21 Challenge files
 
-Instructions
-Step 1: Preprocess the Data
+## Instructions
+## Step 1: Preprocess the Data
 Using your knowledge of Pandas and scikit-learn’s StandardScaler(), you’ll need to preprocess the dataset. This step prepares you for Step 2, where you'll compile, train, and evaluate the neural network model.
 
 Using the information we provided in the Challenge files, follow the instructions to complete the preprocessing steps.
@@ -47,7 +48,7 @@ Use the number of data points for each unique value to pick a cutoff point to bi
 
 Use pd.get_dummies() to encode categorical variables.
 
-Step 2: Compile, Train, and Evaluate the Model
+## Step 2: Compile, Train, and Evaluate the Model
 Using your knowledge of TensorFlow, you’ll design a neural network, or deep learning model, to create a binary classification model that can predict if an Alphabet Soup-funded organization will be successful based on the features in the dataset. You’ll need to think about how many inputs there are before determining the number of neurons and layers in your model. Once you’ve completed that step, you’ll compile, train, and evaluate your binary classification model to calculate the model’s loss and accuracy.
 
 Continue using the Jupyter Notebook in which you performed the preprocessing steps from Step 1.
@@ -70,7 +71,7 @@ Evaluate the model using the test data to determine the loss and accuracy.
 
 Save and export your results to an HDF5 file. Name the file AlphabetSoupCharity.h5.
 
-Step 3: Optimize the Model
+## Step 3: Optimize the Model
 Using your knowledge of TensorFlow, optimize your model to achieve a target predictive accuracy higher than 75%.
 
 Use any or all of the following methods to optimize your model:
@@ -95,7 +96,7 @@ Design a neural network model, and be sure to adjust for modifications that will
 
 Save and export your results to an HDF5 file. Name the file AlphabetSoupCharity_Optimization.h5.
 
-Step 4: Write a Report on the Neural Network Model
+## Step 4: Write a Report on the Neural Network Model
 For this part of the assignment, you’ll write a report on the performance of the deep learning model you created for Alphabet Soup.
 
 The report should contain the following:
@@ -118,13 +119,13 @@ Summary: Summarize the overall results of the deep learning model. Include a rec
 Submission
 To submit your Challenge assignment, click Submit, and then provide the URL of your GitHub repository for grading.
 
-NOTE
+## NOTE
 You are allowed to miss up to two Challenge assignments and still earn your certificate. If you complete all Challenge assignments, your lowest two grades will be dropped. If you wish to skip this assignment, click Next, and move on to the next Module.
 
 Comments are disabled for graded submissions in BootCamp Spot. If you have questions about your feedback, please notify your instructional staff or your Student Success Manager. If you would like to resubmit your work for an additional review, you can use the Resubmit Assignment button to upload new links. You may resubmit up to three times for a total of four submissions.
 
-Rubric
+## Rubric
 Module 21 Challenge RubricLinks to an external site.
 
-References
+## References
 IRS. Tax Exempt Organization Search Bulk Data Downloads. https://www.irs.gov/
